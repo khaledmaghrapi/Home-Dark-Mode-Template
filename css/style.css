@@ -1,0 +1,501 @@
+/* start header */
+header{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: #252525;
+	z-index: 10
+	}
+
+
+.logo{
+	width: 24.5%;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 80px;
+	letter-spacing: 10px;
+}
+
+
+nav{
+	width: 50%;
+	text-align: center;
+}
+
+header nav ul li a{
+	cursor: pointer;
+}
+header nav ul li:hover{
+	color: #F14201;
+}
+
+.sidebar-menu{
+	width: 24.5%;
+	text-align: right;
+	line-height: 60px;
+}
+.sidebar-menu a{
+	font-size: 30px;
+}
+/* end header */
+
+/* start banner */
+.banner {
+	background-image: url(../images/distortion.jpg);
+	height: 762px;
+	text-align: center;
+}
+.banner .overlay{
+	background-color: black;
+	height: 762px;
+	opacity: .6;
+}
+.banner h6{
+	font-size: 25px;
+	padding: 100px 0 20px 0;
+}
+.banner h1{
+	width: 60%;
+	font-weight: bold;
+	font-size: 90px;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.banner p{
+	width: 60%;
+	display: inline-block;
+	font-size: 25px;
+	text-align: center;
+}
+.banner a{
+	display: inline-block;
+	padding-top: 100px;
+	color: #fff;
+	font-size: 40px;
+	border-bottom: 4px solid #fff;
+	padding-bottom: 10px;
+}
+/* end banner */
+
+/* start parteners */
+.parteners{
+	height: 181px;
+	background-color: black;
+	opacity: .8;
+}
+.parteners .row .item img{
+	cursor: pointer;
+	opacity: .5;
+	transition: transform .6s ease;
+}
+.parteners .row img:hover{
+	opacity: 1.2;
+	transform:scale(1.07);
+}
+.parteners .row{
+	line-height: 181px;
+	text-align: center;
+}
+.parteners .item{
+	margin: 0 20px;
+}
+/* end parteners */
+
+/* start about us */
+.about-us{
+	height: 300px;
+	background-color: #242323;
+}
+.about-us .left{
+	float: left;
+}
+.about-us .left h2{
+	color: #FFFFFF;
+	padding: 100px 50px 0;
+	line-height: 150%;
+	font-size: 30px;
+}
+.about-us .right{
+	float: left;
+}
+.about-us .right p{
+	color: #999999;
+	line-height: 150%;
+	font-size: 15px;
+	padding-top: 110px;
+}
+/* end about us */
+/* start our sections*/
+.our-sections{
+	background-color: #242323;
+	color: #fff;
+	padding-top: 100px;
+}
+.our-sections .image1{
+	background-image: url(../images/card-image-1.jpg);
+}
+.our-sections .image2{
+	background-image: url(../images/card-image-2.jpg);
+}
+.our-sections .card .padding{
+	padding: 30px 30px 0 20px;
+}
+.our-sections .card span{
+	font-weight: bold;
+	font-size: 25px;
+}
+.our-sections .card h2{
+	padding: 20px 0 70px;
+	font-size: 26px;
+}
+.our-sections .card p{
+	padding-bottom: 20px;
+	line-height: 200%;
+	font-size: 13px;
+}
+.our-sections .card i{
+	font-size: 50px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.our-sections .card :hover{
+	background-color: #F14201;
+}
+/* end our sections*/
+
+/* start choose us*/
+.choose-us{
+	background-color: #242323;
+	color: #fff;
+}
+.choose-us .different{
+	text-align: center;
+	padding: 50px 0 40px;
+	width: 60%;
+	margin: 0 auto;
+}
+.choose-us .different h5{
+	color: #999;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.choose-us .different h1{
+	font-size: 30px;
+	width: 69%;
+	margin: 0 auto; 
+}
+.choose-us .different p{
+	color: #999;
+	padding-top: 50px;
+	line-height: 200%;
+}
+
+.choose-us .row .choose-item i{
+	font-size: 90px;
+	color: #F14201;
+	padding-bottom: 20px;
+}
+.choose-us .row .choose-item h2{
+	padding-top: 20px;
+}
+.choose-us .row .choose-item p{
+	color: #999;
+	line-height: 150%;
+	padding-top: 20px;
+}
+/* end choose us*/
+
+/* start latest projects */
+.latest-projects{
+	background-color: #242323;
+	height: 186px;
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+}
+.latest-projects .heading{
+	width: 40%;
+}
+.latest-projects .heading h2{
+	padding-left: 150px;
+	font-size: 35px;
+}
+.latest-projects .navbar{
+	width: 60%;
+	padding-top: 14px;
+}
+
+.latest-projects .navbar li{
+	font-size: 15px;
+}
+nav ul li:hover{
+	color: #F14201;
+}
+/* end latest projects */
+
+/* start progress */
+.progress{
+	background-color: #242323;
+	color: #fff;
+	overflow: hidden;
+}
+.progress .left-form{
+	width: 40%;
+	float: left;
+}
+.progress .right-form{
+	background-image: url(../images/dashed-background3.png);
+	width: 40%;
+	float: right;
+	width: 400px;
+	height: 400px;
+	margin: 100px 100px 0 0;
+}
+.progress .right-form img{
+	width: 500px;
+	transform: translate(-180px,150px)
+}
+.progress .left-form h2{
+	padding: 60px 0 30px 30px;
+	font-size:40px;
+	letter-spacing: 5px;
+	line-height: 150%;
+}
+.progress .left-form p{
+	padding: 0 0  40px 30px;
+	color: #999;
+}
+.progress .left-form .select-menu{
+	overflow: hidden;
+	border-bottom: 2px solid #fff;
+	margin-left: 30px;
+	padding-bottom: 20px;
+}
+.progress .left-form .select-menu p{
+	float: left;
+	color: #fff;
+	padding: 40px 0 0 ;
+	font-weight: bold;
+	font-size: 20px;
+}
+.progress .left-form .select-menu i{
+	float: right;
+	padding-top: 40px;
+	font-size: 20px;
+}
+/* end progress */
+
+/* start comments */
+.comments{
+	background-color: #2C2C2C;
+}
+.comments .header h3{
+	float: left;
+	width: 69%;
+	margin-right: 50px;
+	color: #fff;
+	padding:120px 0 0 0;
+	font-size: 30px;
+	line-height: 10%;
+}
+.comments .header p{
+	float: right;
+	text-align: right;
+	width: 30%;
+	color: #999;
+	font-size: 20px;
+}
+
+.comments .content{
+	background-color: #252525;
+	width: 100%;
+	height: 200px;
+	margin: 30px auto;
+	color: #fff;
+	padding: 40px;
+}
+.comments .content h2{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.comments .content i{
+	color:#67A900;
+	margin-left: 5px;
+}
+.comments .content p{
+	line-height: 150%;
+}
+.comments .image {
+	width: 33.333%;
+	float:left;
+	padding: 10px;
+	overflow: hidden;
+}
+.comments .image:hover {
+	filter: brightness(1.3);	;
+}
+.comments .image img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+	opacity: .6;
+}
+.comments .image .define{
+	width: 70%;
+	float: left;
+	padding: 10px 0 0 5px;
+	line-height: 150%;
+}
+.comments .image h3{
+	font-size: 18px;
+	color: #fff;
+}
+.comments .image p{
+	font-size: 11px;
+	color: #fff;
+}
+.comments .image p span{
+	color: #00f;
+}
+/* end comments */
+
+/* start our team */
+.our-team{
+	background-color: #242323;
+	color: #fff;
+}
+.our-team .content{
+	text-align: center;
+}
+.our-team .content p{
+	color: #999;
+	padding: 30px 0;
+}
+.our-team .row{
+	padding-top: 40px;
+}
+.our-team .images{
+	float: left;
+	width: 24.5%;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.our-team .images img{
+	width: 100%
+	height: 100%;
+}
+.our-team .images h2{
+	text-align: center;
+	padding-top: 10px;
+}
+.our-team .images p{
+	text-align: center;
+	font-size: 15px;
+	color: #999;
+	padding-top: 5px;
+}
+.our-team .container{
+	border-bottom: 2px solid #999;
+}
+/* end our team */
+
+/* start achievements */
+.achievements {
+	background-color: #242323;
+	color: #fff;
+	padding-bottom: 60px;
+}
+.achievements .content{
+	text-align: center;
+	padding: 60px 0;
+}
+.achievements .content p{
+	color: #999;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+.achievements .content h2{
+	font-size: 30px;
+}
+.achievements .row {
+	margin-top: 30px;
+}
+.achievements .row .prizes{
+	float: left;
+	width: 33.33%;
+	padding: 0 20px;
+}
+.achievements .row .prizes p{
+	line-height: 150%;
+	padding: 50px 0 10px;
+	font-size: 20px;
+}
+.achievements .row .prizes h6{
+	color: #F14201;
+	font-size: 20px;
+}
+/* end achievements */
+
+/*start footer*/
+		footer{
+			height: 400px;
+			width: 100%;
+			background-color: #252525;
+			overflow: hidden;
+		}
+		footer .footer-links{
+			float: left;
+			width: 25%;
+			color: #252934;
+			padding: 0 15px;
+			overflow: hidden;
+			height: 230px;
+		}
+		footer .footer-links h3{
+			font-size: 20px;
+			color: #fff;
+			margin-top: 40px;
+		}
+		footer .footer-links a{
+			display: block;
+			text-decoration: none;
+			color: #999;
+			font-size: 15px;
+			margin-top: 15px;
+		}
+		footer .footer-links a:hover{
+			color: #fff;
+			border-bottom: 1px solid #fff;
+			display: inline-block;
+		}
+		footer .copy-right{
+			text-align: center;
+			color: #fff;
+			margin-top: 70px;
+			font-family: tahoma,arial;
+			overflow: hidden;
+		}
+		footer .copy-right .end{
+			float: left;
+			width: 60%;
+		}
+		footer .copy-right .social{
+			float: right;
+			width: 40%;
+		}
+		footer .copy-right .social i{
+			padding: 0 20px;
+			font-size: 25px;
+		}
+		footer .copy-right .social i:hover{
+			color: #F14201;
+		}
+		footer .copy-right span{
+			color:#F14201;
+			font-weight: bold;
+		}
+
+		/*end footer*/
